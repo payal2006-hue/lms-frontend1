@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
   return (
     <>
